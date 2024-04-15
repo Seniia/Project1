@@ -1,0 +1,255 @@
+body{
+    background-color: rgba(209, 208, 208, 1);
+    margin: 0;
+}
+
+.menu{
+    background-color: rgba(84, 112, 110, 1);
+    width: 100%;
+    height: 85px;
+    margin: 0;
+    text-decoration:none;
+    outline: none;
+}
+
+.gpp{
+    margin: 0;
+    display: flex;
+    position: absolute;
+    top: 8px;
+    margin: 0;
+    left: 16px;
+    margin-top: 35px;
+}
+
+
+.gpp li{
+    text-decoration: none;
+    outline: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+li{
+    text-decoration: none;
+    outline: none;
+    list-style-type:none;
+}
+
+.g{
+    text-decoration: none;
+    color: black;
+}
+
+.pn{
+    text-decoration: none;
+    color: black;
+}
+
+.p{
+    text-decoration: none;
+    color: black;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 25px;
+}
+
+.languageul li{
+    text-decoration: none;
+    outline: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.languageul{
+    margin: 0;
+}
+
+.pid{
+    text-decoration: none;
+    color: black;
+    margin-right: 140px;
+}
+
+.ua{
+    text-decoration: none;
+    color: black;
+}
+
+.eng{
+    text-decoration: none;
+    color: rgba(209, 206, 206, 1);
+    margin-right: 80px;
+}
+
+.language{
+    display: flex;
+    position: absolute;
+    top: 8px;
+    margin: 0;
+    right: 16px;
+    margin-top: 35px;
+}
+
+.HHH{
+    margin-left: 250px;
+}
+
+h1{
+    font-size: 100px;
+    width: 1102px; 
+    height: 400px;
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 85px;
+}
+
+.leaflet{
+    margin: 0;
+    display: flex;
+    position: absolute;
+    top: 85px;
+    right: 30px;
+    width: 450px;
+}
+
+.rings{
+    margin: 0;
+    margin-left: 80px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.headertext{
+    width: 350px;
+    height: 106px;
+    display: flex;
+    top: 470px;
+    left: 50px;
+    position: absolute;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding-top: 14px;
+    padding-left: 90px;
+    font-size: 30px;
+    width: 350px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    background-color: rgba(84, 112, 110, 1);
+}
+
+
+.servicios{
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    margin-left:200px ;
+    margin-top: 200px;
+}
+
+.services{
+    width: 1200px;
+    height: 500px;
+    margin: 0;
+    margin-left: 100px;
+}
+
+.bodyflex{
+    width: 400px;
+    height: 702px;
+    position: absolute;
+    top: 1250px;
+}
+
+.towel{
+    width: 400px;
+}
+
+h2{
+    font-size: 50px;
+    display: flex;
+    position: absolute;
+    top: 1500px;
+    padding-left: 20px;
+}
+
+.body{
+    top:280px;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.jewelry{
+    position: absolute;
+    top: 1250px;
+    left: 520px;
+    margin-left: 15px;
+    width: 400px;
+    height: 702px;
+}
+
+.jewphoto{
+    width: 400px;
+}
+
+.jew{
+    position: absolute;
+    top: 280px;
+    padding-left: 70px;
+}
+
+.massage{
+    width: 400px;
+    height: 702px;
+    float: right;
+    position: absolute;
+    top: 1250px;
+    right: 140px;
+}
+
+.msg{
+    width: 400px;
+
+}
+
+.mas{
+    position:absolute;
+    top: 280px;
+    padding-left: 70px;
+}
+
+.footer{
+    margin: 0;
+    background-color: rgba(84, 112, 110, 0.84);
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    height: 60px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}

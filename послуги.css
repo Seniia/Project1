@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    background-color: rgba(209, 208, 208, 1);
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+}
+
+.services{
+    width: 1200px;
+    height: 707px;
+    margin: 0;
+    margin-left: 100px;
+}
+
+.bodyflex{
+    width: 400px;
+    height: 702px;
+    margin-top: 7px ;
+}
+
+.towel{
+    width: 400px;
+}
+
+h2{
+    font-size: 50px;
+    display: flex;
+    position: absolute;
+    top: 500px;
+    padding-left: 20px;
+}
+
+.body{
+    top:400px;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.jewelry{
+
+    position: absolute;
+    top: 120px;
+    left: 520px;
+    margin-left: 15px;
+    width: 400px;
+    height: 702px;
+}
+
+.jewphoto{
+    width: 400px;
+}
+
+.jew{
+    position: absolute;
+    top: 280px;
+    padding-left: 70px;
+}
+
+.massage{
+    width: 400px;
+    height: 702px;
+    float: right;
+    position: absolute;
+    top: 120px;
+    right: 140px;
+}
+
+.msg{
+    width: 400px;
+
+}
+
+.mas{
+    position:absolute;
+    top: 280px;
+    padding-left: 70px;
+}
+
+.footer{
+    margin: 0;
+    background-color: rgba(84, 112, 110, 0.84);
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    height: 60px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}

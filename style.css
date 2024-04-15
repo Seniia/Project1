@@ -1,0 +1,520 @@
+body{
+    background-color: rgba(209, 208, 208, 1);
+    margin: 0;
+}
+
+.menu{
+    background-color: rgba(84, 112, 110, 1);
+    width: 100%;
+    height: 85px;
+    margin: 0;
+    text-decoration:none;
+    outline: none;
+}
+
+.gpp{
+    margin: 0;
+    display: flex;
+    position: absolute;
+    top: 8px;
+    margin: 0;
+    left: 16px;
+    margin-top: 35px;
+}
+
+
+.gpp li{
+    text-decoration: none;
+    outline: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+li{
+    text-decoration: none;
+    outline: none;
+    list-style-type:none;
+}
+
+.g{
+    text-decoration: none;
+    color: black;
+}
+
+.pn{
+    text-decoration: none;
+    color: black;
+}
+
+.p{
+    text-decoration: none;
+    color: black;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 25px;
+}
+
+.languageul li{
+    text-decoration: none;
+    outline: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.languageul{
+    margin: 0;
+}
+
+.pid{
+    text-decoration: none;
+    color: black;
+    margin-right: 140px;
+}
+
+.ua{
+    text-decoration: none;
+    color: black;
+}
+
+.eng{
+    text-decoration: none;
+    color: rgba(209, 206, 206, 1);
+    margin-right: 80px;
+}
+
+.language{
+    display: flex;
+    position: absolute;
+    top: 8px;
+    margin: 0;
+    right: 16px;
+    margin-top: 35px;
+}
+
+.HHH{
+    margin-left: 250px;
+}
+
+h1{
+    font-size: 100px;
+    width: 1102px; 
+    height: 400px;
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 85px;
+}
+
+.leaflet{
+    margin: 0;
+    display: flex;
+    position: absolute;
+    top: 85px;
+    right: 30px;
+    width: 450px;
+}
+
+.rings{
+    margin: 0;
+    margin-left: 80px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.headertext{
+    width: 350px;
+    height: 106px;
+    display: flex;
+    top: 470px;
+    right: 550px;
+    position: absolute;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding-top: 14px;
+    padding-left: 90px;
+    font-size: 30px;
+    width: 350px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    top: 600px;
+    right: 550px;
+    background-color: rgba(84, 112, 110, 1);
+}
+
+
+.servicios{
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    margin-left:200px ;
+    margin-top: 200px;
+}
+
+.services{
+    width: 1200px;
+    height: 500px;
+    margin: 0;
+    margin-left: 100px;
+}
+
+.bodyflex{
+    width: 400px;
+    height: 702px;
+    position: absolute;
+    top: 1250px;
+}
+
+.towel{
+    width: 400px;
+}
+
+h2{
+    font-size: 50px;
+    display: flex;
+    position: absolute;
+    top: 1500px;
+    padding-left: 20px;
+}
+
+.body{
+    top:280px;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.jewelry{
+
+    position: absolute;
+    top: 1250px;
+    left: 520px;
+    margin-left: 15px;
+    width: 400px;
+    height: 702px;
+}
+
+.jewphoto{
+    width: 400px;
+}
+
+.jew{
+    position: absolute;
+    top: 280px;
+    padding-left: 70px;
+}
+
+.massage{
+    width: 400px;
+    height: 702px;
+    float: right;
+    position: absolute;
+    top: 1250px;
+    right: 140px;
+}
+
+.msg{
+    width: 400px;
+
+}
+
+.mas{
+    position:absolute;
+    top: 280px;
+    padding-left: 70px;
+}
+
+.footer{
+    margin: 0;
+    background-color: rgba(84, 112, 110, 0.84);
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    height: 60px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    body{
+        width: 992px;
+    }
+
+    .menu{
+        position: absolute;
+    }
+
+    h1{
+        position: absolute;
+        top: 80px;
+        margin-top: 5px;
+        margin-left: 20px;
+        font-size: 80px;
+    }
+    .HHH{
+        margin-left: 0;
+    }
+
+    .rings{
+        margin-left: 0;
+        position: absolute;
+        left: 500px;
+        top: 500px;
+    }
+
+    .headertext{
+        top: 380px;
+        left: 50px;
+    }
+
+    button{
+        top: 500px;
+        left: 40px;
+    }
+
+    .leaflet{
+        width: 417px;
+    }
+
+    .servicios{
+        font-size:80px;
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 900px;
+    
+    }
+
+    .services{
+        margin-left: 10px;
+    }
+
+    h2{
+        font-size: 30px;
+        margin: 0;
+        padding-left: 50px;
+    }
+
+
+    h3{
+        font-size: 20px;
+        
+    }
+
+    .bodyflex{
+        width: 320px;
+        height: 450px;
+        top: 1000px;
+    }
+
+    .towel{
+        width: 320px;
+    }
+
+    .jewelry{
+        width: 320px;
+        height: 450px;
+        top: 1000px;
+        left: 350px;
+        margin-left: 0px;
+    }
+
+    .jewphoto{
+        width: 320px;
+    }
+
+    .massage{
+        width: 320px;
+        height: 450px;
+        top: 1000px;
+        left: 700px;
+        margin-left: 0px;
+    }
+    
+    .msg{
+        width: 320px;
+    }
+
+    .footer{
+        position: absolute;
+        top: 1500px;
+    }
+    }
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+body{
+    width: 768px;
+}
+
+.gpp{
+    display:none;
+}
+
+.language{
+    display: none;
+}
+
+h1{
+    font-size: 55px;
+    margin-left: 0px;
+}
+
+
+.HHH{
+    margin-left: 0;
+}
+
+.rings{
+    margin-left: 0;
+    position: absolute;
+    left: 400px;
+}
+
+.headertext{
+    top: 320px;
+    left: 10px;
+    text-align:left;
+}
+
+button{
+    top: 500px;
+    left: 40px;
+}
+
+.leaflet{
+    width: 400px;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    top: 2400px;
+}
+
+.services{
+    font-size:80px;
+    position: absolute;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.bodyflex{
+    left: 350px;
+}
+
+.jewelry{
+    top: 1470px;
+}
+
+.massage{
+    top:1900px;
+    left: 350px;
+}
+
+
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+body{
+    width: 570px;
+}
+
+.gpp{
+    display:none;
+}
+
+.language{
+    display: none;
+}
+
+h1{
+    font-size: 45px;
+    margin-left: 0px;
+}
+
+
+.HHH{
+    margin-left: 0;
+}
+
+.rings{
+    margin-left: 0;
+    position: absolute;
+    left: 10px;
+    width: 250px;
+    top: 450px;
+}
+
+.headertext{
+    top: 600px;
+    left: 10px;
+    text-align:left;
+}
+
+button{
+    top: 730px;
+    left: 10px;
+}
+
+.leaflet{
+    width: 300px;
+    height: 320px;
+    top: 250px;
+    left: 10px;
+}
+
+.servicios{
+    font-size:80px;
+    position: absolute;
+    margin-left: 0;
+    margin-top: 0;
+    width: 576px;
+    text-align: center;
+}
+
+.bodyflex{
+    left: 140px;
+}
+
+.jewelry{
+    top: 1470px;
+    left: 140px;
+}
+
+.massage{
+    top:1900px;
+    left: 140px;
+}
+
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+body{
+    width: 300px;
+}
+}
